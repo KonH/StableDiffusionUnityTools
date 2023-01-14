@@ -9,6 +9,9 @@ namespace StableDiffusionUnityTools.Editor {
 		internal string _command;
 
 		[SerializeField]
+		internal string _resultPath;
+
+		[SerializeField]
 		internal bool _verboseLogs;
 
 		public static StableDiffusionUserSettings GetOrCreateSettings() {

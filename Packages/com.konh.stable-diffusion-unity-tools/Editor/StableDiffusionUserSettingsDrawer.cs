@@ -7,6 +7,9 @@ static class StableDiffusionUserSettingsDrawer {
 		var commandProperty = settings.FindProperty(nameof(StableDiffusionUserSettings._command));
 		commandProperty.stringValue = EditorGUILayout.TextArea(commandProperty.stringValue);
 		EditorGUILayout.PropertyField(
+			settings.FindProperty(nameof(StableDiffusionUserSettings._resultPath)),
+			StableDiffusionUserSettingsStyles.ResultPath);
+		EditorGUILayout.PropertyField(
 			settings.FindProperty(nameof(StableDiffusionUserSettings._verboseLogs)),
 			StableDiffusionUserSettingsStyles.VerboseLogs);
 		settings.ApplyModifiedProperties();
