@@ -8,5 +8,10 @@ namespace StableDiffusionUnityTools.Editor {
 			Directory.CreateDirectory("Assets/StableDiffusionUnityTools");
 			StableDiffusionUserSettings.GetOrCreateSettings();
 		}
+
+		[MenuItem("SD Tools/Generate Image")]
+		public static void GenerateImage() {
+			EditorWindow.GetWindow<AssetsPromptWindow>("Image Generation");
+		}
 	}
 }
