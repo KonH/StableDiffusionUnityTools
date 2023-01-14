@@ -6,3 +6,7 @@ Temp
 UserSettings
 *.csproj
 *.sln
+Assets/StableDiffusionUnityTools
+Assets/StableDiffusionUnityTools.meta
+Assets/Images
+Assets/Images.meta
