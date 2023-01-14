@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.konh.stable-diffusion-unity-tools": {
+      "version": "file:com.konh.stable-diffusion-unity-tools",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "5.0.9",
       "depth": 0,
